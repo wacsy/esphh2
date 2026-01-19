@@ -128,7 +128,10 @@ CTestTestfile.cmake
 .clang_complete
 .gcc-flags.json
 
-config/
+config/*
+!config/w_comps/
+!config/w_comps/**
+!config/w_comps_readme.md
 tests/build/
 tests/.esphome/
 /.temp-clang-tidy.cpp
